@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+@font-face {
+  font-family: 'Novecentosanswide-DemiBold';
+  src: url("Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("Novecentosanswide-DemiBold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Novecentosanswide-Bold';
+  src: url("Novecentosanswide-Bold-webfont.woff2") format("woff2"), url("Novecentosanswide-Bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #2c2f35;
+}
+
+#greenPanel {
+  background-color: #00B2FF;
+  color: #000000;
+}
+
+#greenPanel .jumbotron {
+  background-color: inherit;
+  margin: 15px;
+  border-radius: 0;
+}
+
+#greenPanel .jumbotron .headerPic {
+  text-align: center;
+}
+
+#greenPanel .jumbotron .headerPic .circle {
+  margin: auto;
+}
+
+#greenPanel .jumbotron .headerPic .circle img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  border: 20px solid #000000;
+  border-radius: 150px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#greenPanel .jumbotron .headerPic .circle :hover {
+  border: 30px solid #000000;
+}
+
+#greenPanel .jumbotron .headerPic .name {
+  margin-top: 20px;
+}
+
+#greenPanel .jumbotron .headerPic .name h1 {
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+}
+
+#greenPanel .jumbotron .headerPic .name h2 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 2.5vw;
+}
+
+#greenPanel .jumbotron .titleText {
+  margin-top: 35px;
+  margin-left: 25px;
+  margin-bottom: -28px;
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+}
+
+#greenPanel .jumbotron .title {
+  padding-right: 800px;
+  margin-left: 10px;
+  border-bottom: 4px solid #000000;
+  vertical-align: bottom;
+}
+
+#greenPanel .jumbotron .title img {
+  margin-bottom: -4px;
+  margin-left: -7px;
+}
+
+#greenPanel .jumbotron .overviewBox {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+#greenPanel .jumbotron .mailBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#greenPanel .jumbotron .mailBox img {
+  height: 50px;
+  width: auto;
+  margin-left: 15px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#greenPanel .jumbotron .mailBox :hover {
+  height: 60px;
+  width: auto;
+}
+
+#greenPanel .jumbotron .mailBox p {
+  margin-top: 15px;
+}
+
+#greenPanel .jumbotron .phoneBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#greenPanel .jumbotron .phoneBox img {
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#greenPanel .jumbotron .phoneBox :hover {
+  height: 50px;
+  width: auto;
+}
+
+#greenPanel .jumbotron .phoneBox p {
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+#greenPanel .jumbotron .linkedinBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#greenPanel .jumbotron .linkedinBox img {
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#greenPanel .jumbotron .linkedinBox :hover {
+  height: 50px;
+  width: auto;
+}
+
+#greenPanel .jumbotron .linkedinBox p {
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+#greenPanel .jumbotron .linkedinBox p a {
+  text-decoration: none;
+  color: #2c2f35;
+}
+
+#greenPanel .jumbotron .githubBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+#greenPanel .jumbotron .githubBox img {
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#greenPanel .jumbotron .githubBox :hover {
+  height: 50px;
+  width: auto;
+}
+
+#greenPanel .jumbotron .githubBox p {
+  margin-left: 9px;
+}
+
+#greenPanel .jumbotron .githubBox p a {
+  text-decoration: none;
+  color: #2c2f35;
+}
+
+#blackPanel {
+  background-color: #000000;
+  color: #00B2FF;
+  padding-left: 0;
+}
+
+#blackPanel .jumbotron {
+  padding-left: 0;
+  margin-right: 15px;
+  background-color: inherit;
+  border-radius: 0;
+}
+
+#blackPanel .jumbotron .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#blackPanel .jumbotron .work .bloco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 100px;
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+}
+
+#blackPanel .jumbotron .work .bloco img {
+  margin-left: -10px;
+  height: 80px;
+  width: auto;
+  z-index: 1;
+}
+
+#blackPanel .jumbotron .work .bloco .auxH {
+  margin-top: 30px;
+  height: 10px;
+  width: 50px;
+  border-bottom: 4px solid #00B2FF;
+}
+
+#blackPanel .jumbotron .work .bloco h1 {
+  margin-top: 15px;
+  font-size: 35px;
+}
+
+#blackPanel .jumbotron .work .auxV {
+  height: 60px;
+  width: 90px;
+  border-right: 4px solid #00B2FF;
+}
+
+#blackPanel .jumbotron .work .lilCircle {
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  border: 4px solid #00B2FF;
+  margin-left: 81px;
+  margin-top: -3px;
+  background-color: #000000;
+  z-index: 1;
+}
+
+#blackPanel .jumbotron .work .workItem {
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#blackPanel .jumbotron .work .workItem .hifen {
+  height: 1px;
+  width: 100px;
+  border-top: 4px solid #00B2FF;
+  margin-left: 93px;
+  margin-top: -10px;
+}
+
+#blackPanel .jumbotron .work .workItem .workItemText h2 {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: -25px;
+}
+
+#blackPanel .jumbotron .work .workItem .workItemText p {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#blackPanel .jumbotron .work .workItem .skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#blackPanel .jumbotron .work .workItem .skill .skillName {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: -30px;
+  margin-right: 40px;
+  width: 15vw;
+}
+
+#blackPanel .jumbotron .work .workItem .skill .skillBar {
+  height: 20px;
+  background-color: #00B2FF;
+  margin-top: -17px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+@media (max-width: 575px) {
+  #greenPanel .jumbotron {
+    background-color: inherit;
+    margin-left: 44px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #greenPanel .jumbotron .headerPic {
+    text-align: center;
+  }
+  #greenPanel .jumbotron .headerPic .name h2 {
+    font-size: 4vw;
+  }
+  #greenPanel .jumbotron .titleText {
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: -28px;
+    font-family: 'Novecentosanswide-Bold', sans-serif;
+  }
+  #greenPanel .jumbotron .title {
+    padding-right: 100px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    border-bottom: 4px solid #00B2FF;
+  }
+  #greenPanel .jumbotron .title img {
+    margin-bottom: -4px;
+    margin-left: -7px;
+  }
+  #greenPanel .jumbotron .overviewBox {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    border-left: 3px solid #000000;
+  }
+  #greenPanel .jumbotron .overviewBox p {
+    margin-bottom: 0;
+  }
+  #greenPanel .jumbotron .infoBox {
+    margin-top: -10px;
+  }
+  #greenPanel .jumbotron .infoBox .phoneBox, #greenPanel .jumbotron .infoBox .linkedinBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+  }
+  #greenPanel .jumbotron .infoBox .phoneBox img, #greenPanel .jumbotron .infoBox .linkedinBox img {
+    margin-left: 5px;
+  }
+  #greenPanel .jumbotron .infoBox .mailBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  #greenPanel .jumbotron .infoBox .mailBox img {
+    margin-left: 0px;
+  }
+  #greenPanel .jumbotron .infoBox .githubBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+    margin-top: -5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  #greenPanel .jumbotron .infoBox .githubBox img {
+    margin-left: 7px;
+  }
+  #blackPanel .jumbotron {
+    padding-top: 0;
+  }
+  #blackPanel .jumbotron .work .guide {
+    height: 110px;
+    width: 85px;
+    border-right: 4px solid #00B2FF;
+    margin-bottom: -10px;
+    margin-left: 4px;
+  }
+  #blackPanel .jumbotron .work .bloco {
+    margin-top: 0;
+  }
+  #blackPanel .jumbotron .work .bloco .auxH {
+    margin-top: 30px;
+    height: 10px;
+    width: 50px;
+    border-bottom: 4px solid #000000;
+  }
+  #blackPanel .jumbotron .work .bloco h1 {
+    margin-top: 25px;
+    font-size: 5.7vw;
+  }
+  #blackPanel .jumbotron .work .bloco .auxV {
+    height: 150px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  #greenPanel .jumbotron {
+    background-color: inherit;
+    margin-left: 29px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #greenPanel .jumbotron .headerPic {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  #greenPanel .jumbotron .titleText {
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: -28px;
+    font-family: 'Novecentosanswide-Bold', sans-serif;
+  }
+  #greenPanel .jumbotron .title {
+    padding-right: 100px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    border-bottom: 4px solid #00B2FF;
+  }
+  #greenPanel .jumbotron .title img {
+    margin-bottom: -4px;
+    margin-left: -7px;
+  }
+  #greenPanel .jumbotron .overviewBox {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    border-left: 3px solid #000000;
+  }
+  #greenPanel .jumbotron .overviewBox p {
+    margin-bottom: 0;
+  }
+  #greenPanel .jumbotron .infoBox {
+    margin-top: -10px;
+  }
+  #greenPanel .jumbotron .infoBox .phoneBox, #greenPanel .jumbotron .infoBox .linkedinBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+  }
+  #greenPanel .jumbotron .infoBox .phoneBox img, #greenPanel .jumbotron .infoBox .linkedinBox img {
+    margin-left: 5px;
+  }
+  #greenPanel .jumbotron .infoBox .mailBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  #greenPanel .jumbotron .infoBox .mailBox img {
+    margin-left: 0px;
+  }
+  #greenPanel .jumbotron .infoBox .githubBox {
+    border-left: 3px solid #2c2f35;
+    margin-left: 10px;
+    margin-top: -5px;
+    padding-top: 10px;
+    height: 100px;
+  }
+  #greenPanel .jumbotron .infoBox .githubBox img {
+    margin-left: 7px;
+  }
+  #blackPanel .jumbotron {
+    padding-top: 0;
+  }
+  #blackPanel .jumbotron .work .guide {
+    height: 110px;
+    width: 85px;
+    border-right: 4px solid #00B2FF;
+    margin-bottom: -10px;
+    margin-left: 4px;
+  }
+  #blackPanel .jumbotron .work .bloco {
+    margin-top: 0;
+  }
+  #blackPanel .jumbotron .work .bloco .auxH {
+    margin-top: 30px;
+    height: 10px;
+    width: 50px;
+    border-bottom: 4px solid #000000;
+  }
+  #blackPanel .jumbotron .work .bloco h1 {
+    margin-top: 25px;
+    font-size: 5.7vw;
+  }
+  #blackPanel .jumbotron .work .bloco .auxV {
+    height: 150px;
+  }
+}
