@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @font-face {
   font-family: 'Novecentosanswide-DemiBold';
   src: url("Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("Novecentosanswide-DemiBold-webfont.woff") format("woff");
@@ -11,6 +12,16 @@
   src: url("Novecentosanswide-Bold-webfont.woff2") format("woff2"), url("Novecentosanswide-Bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+.novecentosanswideDB {
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+}
+
+.montserratExtrabold {
+  /* Montserrat Extra Bold = 800 */
+  font-weight: 800;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -53,10 +64,6 @@ body {
   margin-top: 20px;
 }
 
-#greenPanel .jumbotron .headerPic .name h1 {
-  font-family: 'Novecentosanswide-Bold', sans-serif;
-}
-
 #greenPanel .jumbotron .headerPic .name h2 {
   font-family: 'News Cycle', sans-serif;
   font-size: 2.5vw;
@@ -67,6 +74,8 @@ body {
   margin-left: 25px;
   margin-bottom: -28px;
   font-family: 'Novecentosanswide-Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 #greenPanel .jumbotron .title {
@@ -222,6 +231,10 @@ body {
   border-radius: 0;
 }
 
+#blackPanel .jumbotron .work .bloco .swing {
+  font-size: 3vw;
+}
+
 #blackPanel .jumbotron .work {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,6 +369,8 @@ body {
     margin-left: 25px;
     margin-bottom: -28px;
     font-family: 'Novecentosanswide-Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
   #greenPanel .jumbotron .title {
     padding-right: 100px;
@@ -452,6 +467,8 @@ body {
     margin-left: 25px;
     margin-bottom: -28px;
     font-family: 'Novecentosanswide-Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
   #greenPanel .jumbotron .title {
     padding-right: 100px;

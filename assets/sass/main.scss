@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 @font-face {
     font-family: 'Novecentosanswide-DemiBold';
@@ -14,6 +15,16 @@
          url('Novecentosanswide-Bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+.novecentosanswideDB{
+  font-family: 'Novecentosanswide-Bold', sans-serif;
+}
+
+.montserratExtrabold {
+	/* Montserrat Extra Bold = 800 */
+	font-weight: 800;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -48,7 +59,9 @@ body {
       .name{
         margin-top: 20px;
         h1{
-          font-family: 'Novecentosanswide-Bold', sans-serif;
+          // font-family: 'Novecentosanswide-Bold', sans-serif;
+          // font-family: 'Montserrat', sans-serif;
+          // font-weight: bold;
         }
         h2{
           font-family: 'News Cycle', sans-serif;
@@ -61,6 +74,8 @@ body {
       margin-left: 25px;
       margin-bottom: -28px;
       font-family: 'Novecentosanswide-Bold', sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
     }
 
     .title{
@@ -182,7 +197,7 @@ body {
     .work{
       .bloco{
         .swing{
-          style=font-size:3vw;
+          font-size:3vw;
         }
       }
     }
@@ -303,6 +318,8 @@ body {
         margin-left: 25px;
         margin-bottom: -28px;
         font-family: 'Novecentosanswide-Bold', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
       }
 
       .title{
@@ -415,6 +432,8 @@ body {
         margin-left: 25px;
         margin-bottom: -28px;
         font-family: 'Novecentosanswide-Bold', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
       }
 
       .title{
