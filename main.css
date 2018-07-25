@@ -1,5 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=News+Cycle");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 400;
+  src: local('News Cycle'), local('NewsCycle'), url(https://fonts.gstatic.com/s/newscycle/v14/CSR64z1Qlv-GDxkbKVQ_fOAKSA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+
 @font-face {
   font-family: 'Novecentosanswide-DemiBold';
   src: url("Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("Novecentosanswide-DemiBold-webfont.woff") format("woff");
@@ -25,7 +37,7 @@
 }
 
 body {
-  background-color: #2c2f35;
+  background-color: #2c2f34;
 }
 
 #greenPanel {

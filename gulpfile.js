@@ -3,6 +3,8 @@ var pug = require('gulp-pug');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var autoprefixer = require('gulp-autoprefixer');
+var cssimport = require("gulp-cssimport");
+var options = {};
 var reload = browserSync.reload;
 
 
@@ -20,6 +22,7 @@ gulp.task('sass', function(){
 	return gulp.src('./assets/sass/*.scss')
 	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
 	.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
+	.pipe(cssimport())
 	.pipe(gulp.dest('./'))
 	.pipe(browserSync.stream());
 });
@@ -30,5 +33,6 @@ gulp.task('pug', function(){
 	.pipe(gulp.dest('./'))
 	.pipe(browserSync.stream());
 });
+
 
 gulp.task('default',['serve']);
